@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2016 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <SeekBarPreference
+        android:key="@string/speed_key"
+        android:title="@string/speed_label"
+        android:summary="@string/speed_summary"
+        android:max="@string/speed_max"
+        app:min="1"
+        android:defaultValue="@string/speed_default" />
+
+    <SeekBarPreference
+        android:key="@string/size_key"
+        android:title="@string/size_label"
+        android:summary="@string/size_summary"
+        android:max="@string/size_max"
+        app:min="1"
+        android:defaultValue="@string/size_default" />
+
+
+    <SeekBarPreference
+        android:key="@string/space_key"
+        android:title="@string/space_label"
+        android:summary="@string/space_summary"
+        android:max="@string/space_max"
+        app:min="1"
+        android:defaultValue="@string/space_default" />
+
+
+    <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
+        android:defaultValue="@color/textColorPrimary"
+        android:key="@string/text_color_key"
+        android:summary="@string/text_color_summary"
+        android:title="@string/text_color_label"
+        app:colorShape="circle"
+        app:colorChoices="@array/color_choices"
+        app:viewSize="large"
+        app:numColumns="5"
+        app:showDialog="true" />
+    <com.kizitonwose.colorpreferencecompat.ColorPreferenceCompat
+        android:defaultValue="@color/default_background_color"
+        android:key="@string/background_color_key"
+        android:summary="@string/background_color_summary"
+        android:title="@string/background_color_label"
+        app:colorShape="circle"
+        app:colorChoices="@array/color_choices"
+        app:viewSize="large"
+        app:numColumns="5"
+        app:showDialog="true" />
+
+    <CheckBoxPreference
+        android:key="@string/mirror_key"
+        android:defaultValue="false"
+        android:title="@string/mirror_label"/>
+
+    <CheckBoxPreference
+        android:key="@string/timeout_key"
+        android:defaultValue="true"
+        android:summary="@string/timeout_summary"
+        android:title="@string/timeout_label"/>
+
+    <CheckBoxPreference
+        android:key="@string/manual_brightness_key"
+        android:defaultValue="false"
+        android:summary="@string/manual_brightness_summary"
+        android:title="@string/manual_brightness_label"/>
+
+    <SeekBarPreference
+        android:key="@string/brightness_key"
+        android:title="@string/brightness_label"
+        android:summary="@string/brightness_summary"
+        android:max="@string/brightness_max"
+        app:min="5"
+        android:defaultValue="@string/brightness_default" />
+
+</PreferenceScreen>

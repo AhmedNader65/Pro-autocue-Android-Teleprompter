@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "813163040297",
+    "firebase_url": "https://proautocue-androidteleprompter.firebaseio.com",
+    "project_id": "proautocue-androidteleprompter",
+    "storage_bucket": "proautocue-androidteleprompter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813163040297:android:fe15e4dc42e02d50",
+        "android_client_info": {
+          "package_name": "com.mrerror.proautocue_androidteleprompter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813163040297-hbrmhga27nmh4uekoa8ojkuvtdkejk70.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mrerror.proautocue_androidteleprompter",
+            "certificate_hash": "9f0812454665c8d4b51b5c9f1942840ee782abd2"
+          }
+        },
+        {
+          "client_id": "813163040297-bdu8qhajk6ibhhnvb9pf677lon8u95g2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDz3xlHC5CwGplYEGTEFDhwx7mYWVnP0No"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813163040297-bdu8qhajk6ibhhnvb9pf677lon8u95g2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

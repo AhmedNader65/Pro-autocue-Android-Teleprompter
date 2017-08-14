@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e25220</color>
+    <color name="colorPrimaryDark">#ae3207</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent_black">#45000000</color>
+    <color name="textColorPrimary">#000</color>
+    <color name="recordPrimary">#68BDEA</color>
+    <color name="recordPrimaryDark">#1c6287</color>
+    <color name="telePrimaryColor">#e25220</color>
+    <color name="telePrimaryColorDark">#ae3207</color>
+    <color name="default_background_color">#fff</color>
+</resources>

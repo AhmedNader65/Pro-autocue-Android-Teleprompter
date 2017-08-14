@@ -543,7 +543,7 @@ public class RecordActivity extends BaseActivity implements SharedPreferences.On
             mMediaRecorder = new MediaRecorder();
             manager.openCamera(cameraId, mStateCallback, null);
         } catch (CameraAccessException e) {
-            Toast.makeText(activity, "Cannot access the camera.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(activity, getString(R.string.cannot_access_camera), Toast.LENGTH_SHORT).show();
             activity.finish();
         } catch (NullPointerException e) {
             // Currently an NPE is thrown when the Camera2API is used but not supported on the
@@ -603,7 +603,7 @@ public class RecordActivity extends BaseActivity implements SharedPreferences.On
                         public void onConfigureFailed(@NonNull CameraCaptureSession session) {
                             Activity activity = RecordActivity.this;
                             if (null != activity) {
-                                Toast.makeText(activity, "Failed", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(activity, getString(R.string.failed), Toast.LENGTH_SHORT).show();
                             }
                         }
                     }, mBackgroundHandler);
@@ -757,7 +757,7 @@ public class RecordActivity extends BaseActivity implements SharedPreferences.On
                 public void onConfigureFailed(@NonNull CameraCaptureSession cameraCaptureSession) {
                     Activity activity = RecordActivity.this;
                     if (null != activity) {
-                        Toast.makeText(activity, "Failed", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(activity, getString(R.string.failed), Toast.LENGTH_SHORT).show();
                     }
                 }
             }, mBackgroundHandler);
@@ -783,7 +783,7 @@ public class RecordActivity extends BaseActivity implements SharedPreferences.On
 
         Activity activity = this;
         if (null != activity) {
-            Toast.makeText(activity, "Video saved: " + mNextVideoAbsolutePath,
+            Toast.makeText(activity, getString(R.string.video_saved) + mNextVideoAbsolutePath,
                     Toast.LENGTH_SHORT).show();
             Log.d(TAG, "Video saved: " + mNextVideoAbsolutePath);
         }

@@ -115,7 +115,7 @@ public class ScriptsActivity extends BaseActivity implements
                 }
                 else {
                     //Permission has not been granted. Notify the user.
-                    Toast.makeText(ScriptsActivity.this,"Permission is Required for getting list of files",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ScriptsActivity.this,getString(R.string.permission_req_files),Toast.LENGTH_SHORT).show();
                 }
             }
         }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
-    tools:context="com.mrerror.proautocue_androidteleprompter.dsa.ScriptsActivity">
+    tools:context="com.mrerror.proautocue_androidteleprompter.ScriptsActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -38,6 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
+        android:contentDescription="@string/add_btn"
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@drawable/ic_add" />
     

@@ -69,5 +69,17 @@
     <string name="appwidget_text">Try again</string>
     <string name="configure">Configure</string>
     <string name="add_widget">Add widget</string>
+    <string name="add_btn">Add script button</string>
+    <string name="camera_des">Camera view</string>
+    <string name="record_des">Record button</string>
+    <string name="script_content_text_des">script content text</string>
+    <string name="teleprompter">Teleprompter_desc</string>
+    <string name="play_teleprompter_des">play the teleprompter</string>
+    <string name="cannot_access_camera">Cannot access the camera.</string>
+    <string name="failed">Failed</string>
+    <string name="video_saved">Video saved:</string>
+    <string name="permission_req_files">Permission is Required for getting list of files</string>
+    <string name="week">week</string>
+    <string name="weeks">weeks</string>
 
 </resources>

@@ -59,10 +59,10 @@ public class NotificationUtils {
         String content ;
         if(weeks ==1){
             content = context.getString(R.string.weekly_reminder_content) +" "+
-                    + weeks+ " week";
+                    + weeks+ context.getString(R.string.week);
         }else{
             content = context.getString(R.string.weekly_reminder_content) +" "+
-                    + weeks+ " weeks";
+                    + weeks+ context.getString(R.string.weeks);
         }
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(context)
                 .setColor(ContextCompat.getColor(context, R.color.colorPrimary))

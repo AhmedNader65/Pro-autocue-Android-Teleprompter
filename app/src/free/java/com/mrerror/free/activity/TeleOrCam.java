@@ -24,7 +24,6 @@ public class TeleOrCam extends BaseActivity {
         LinearLayout camLayout = (LinearLayout) findViewById(R.id.cam_linear);
         LinearLayout teleLayout = (LinearLayout) findViewById(R.id.linearLayout);
         content = getIntent().getStringExtra("content");
-        Log.e("connntennnnt",content);
         camLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
